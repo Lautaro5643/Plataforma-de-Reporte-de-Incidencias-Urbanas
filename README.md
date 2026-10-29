@@ -1,6 +1,6 @@
-## Plataforma-de-Reporte-de-Incidencias-Urbanas ##
+# Plataforma-de-Reporte-de-Incidencias-Urbanas 
 
-# Alumnos: Lastra, Valentina y Medina, Lautaro
+> **Alumnos:** *Lastra, Valentina y Medina, Lautaro*
 
 # 📌 Descripción del Proyecto
 
