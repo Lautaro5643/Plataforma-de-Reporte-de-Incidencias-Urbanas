@@ -4,7 +4,7 @@
 
 # 📌 Descripción del Proyecto
 
-Como proyecto final para la materia "Backend" este grupo propuso la idea de una **Plataforma de Reporte de Incidencias Urbanas** es un sistema distribuido basado en una arquitectura de **Microservicios** desarrollada con **Java 25** y **Spring Boot**. Su objetivo principal es gestionar de forma centralizada, trazable y automatizada los reportes de problemas en la vía pública (baches, luminarias, basura, etc.), vinculando a los ciudadanos, las zonas geográficas y las cuadrillas operativas mediante un motor de asignación inteligente.
+Como proyecto final para la materia "Backend" este grupo propuso la idea de una **Plataforma de Reporte de Incidencias Urbanas** es un sistema distribuido basado en una arquitectura de **Microservicios** desarrollada con **Java 25** y **Spring Boot** ademas para cada entidad carasteristica de este sistema se usó **PostgreSQL** para almacenar datos de cada entidad. Su objetivo principal es gestionar de forma centralizada, trazable y automatizada los reportes de problemas en la vía pública (baches, luminarias, basura, etc.), vinculando a los ciudadanos, las zonas geográficas y las cuadrillas operativas mediante un motor de asignación inteligente.
 
 El sistema implementa el patrón **Database per Service** (una base de datos independiente por cada microservicio) y utiliza **Apache Kafka** como broker de eventos para garantizar una comunicación asíncrona, escalable y desacoplada entre los distintos dominios de la aplicación.
 
