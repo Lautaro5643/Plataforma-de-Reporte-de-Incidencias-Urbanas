@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+services:
+  ciudadanos:
+    url: ${CIUDADANOS_URL:http://localhost:8081}
+  incidencias:
+    url: ${INCIDENCIAS_URL:http://localhost:8082}
+  asignaciones:
+    url: ${ASIGNACIONES_URL:http://localhost:8083}
+  seguimiento:
+    url: ${SEGUIMIENTO_URL:http://localhost:8084}
+  zonas:
+    url: ${ZONAS_URL:http://localhost:8085}
